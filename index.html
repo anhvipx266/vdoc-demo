@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Vdoc</title>
+    <style>
+        a{
+            text-decoration: none;
+
+        }
+        .ref-about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+
+        }
+        .ref-list{
+            display: flex;
+
+        }
+        .ref-list li{
+            display: inline-block;
+            
+        }
+        .ref-list li a{
+            color: #58a6ff;
+            font-size: 14px;
+            padding: 0 6px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+        }
+        @media screen and (max-width:1024px) {
+            .footer{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header w3-container"></div>
+
+    <div class="footer w3-container w3-border-top">
+        <div class="w3-container ref-about">
+            <a href="">Home</a>
+            <span>© 2023 Vdoc, Inc.</span>
+        </div>
+        <div class="w3-container ref-list">
+            <ul type="none">
+                <li><a href="">Điều kiện</a></li>
+                <li><a href="">Riêng tư</a></li>
+                <li><a href="">Bảo vệ</a></li>
+                <li><a href="">Trạng thái</a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">API</a></li>
+                <li><a href="">Đào tạo</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
